@@ -85,7 +85,7 @@ Result:
 
 
 
-## 🧩 Key Components
+##  Key Components
 
 * **Snapshot Store**
   Full system state stored in a reserved NVMe region
@@ -191,19 +191,6 @@ If you’re interested in:
 * Or just *making computers feel better to use*
 
 Feel free to follow, read, and discuss.
-
-
-
-## 🧠 Final Note
-
-AWAKE is not about speed alone.
-
-It’s about **continuity**.
-
-> Computers shouldn’t feel like machines that restart.
-> They should feel like minds that wake up.
-
-
 
 ##  License
 
