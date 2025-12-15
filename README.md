@@ -15,7 +15,6 @@ The goal is simple:
 No waiting.
 No cold starts.
 
----
 
 ##  The Core Idea
 
@@ -40,7 +39,7 @@ From the user’s perspective:
 This is not just “faster boot”.
 It’s **a different philosophy of computing**.
 
----
+
 
 ##  CONTINUUM — The Architecture Behind AWAKE
 
@@ -63,7 +62,7 @@ CONTINUUM is inspired by:
 * Journaling filesystems
 * Persistent memory research
 
----
+
 
 ##  How It Works ( At the High-Level)
 
@@ -84,7 +83,7 @@ Result:
 
 > **Sub-150 ms perceived wake time on real hardware.**
 
----
+
 
 ## 🧩 Key Components
 
@@ -103,7 +102,7 @@ Result:
 * **Crash-Resilient Checkpointing**
   Safe even during sudden power loss
 
----
+
 
 ##  Multi-User & Security Model
 
@@ -114,7 +113,7 @@ Result:
 
 Security is treated as a **first-class requirement**, not an afterthought.
 
----
+
 
 ##  Current Status
 
@@ -136,7 +135,7 @@ Implementation will begin incrementally on:
 Nothing is rushed.
 Everything is documented.
 
----
+
 
 ##  Dark Horse Log
 
@@ -150,7 +149,7 @@ Every failure, rethink, and breakthrough will be logged in the *Dark Horse*.
 
 > *Great systems aren’t rushed. They’re understood.*
 
----
+
 
 ##  Why This Exists
 
@@ -166,7 +165,7 @@ AWAKE asks a simple question:
 
 > *What if computers never really “turned off”?*
 
----
+
 
 ##  Roadmap (High-Level)
 
@@ -177,7 +176,7 @@ AWAKE asks a simple question:
 * [ ] Introduce external FRAM hardware
 * [ ] Publish benchmarks & demos
 
----
+
 
 ##  Contributing / Following Along
 
@@ -193,7 +192,7 @@ If you’re interested in:
 
 Feel free to follow, read, and discuss.
 
----
+
 
 ## 🧠 Final Note
 
@@ -204,7 +203,7 @@ It’s about **continuity**.
 > Computers shouldn’t feel like machines that restart.
 > They should feel like minds that wake up.
 
----
+
 
 ##  License
 
