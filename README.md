@@ -1,9 +1,8 @@
 # AWAKE
-AWAKE is an experimental system architecture that rethinks booting as waking. Built on the CONTINUUM architecture, it enables instant, crash-resilient resume by persisting system state and restoring usability before full recovery completes.
 
 ### *Computers that don’t reboot. They wake.*
 
-## ✨ What is AWAKE?
+##  What is AWAKE?
 
 **AWAKE** is an experimental system-level project that rethinks how computers start, stop, and recover.
 
@@ -15,11 +14,10 @@ The goal is simple:
 
 No waiting.
 No cold starts.
-No broken flow.
 
 ---
 
-## 🧠 The Core Idea
+##  The Core Idea
 
 Traditional computers follow this cycle:
 
@@ -44,7 +42,7 @@ It’s **a different philosophy of computing**.
 
 ---
 
-## 🏗️ CONTINUUM — The Architecture Behind AWAKE
+##  CONTINUUM — The Architecture Behind AWAKE
 
 **CONTINUUM** is the architectural foundation of AWAKE.
 
@@ -67,7 +65,7 @@ CONTINUUM is inspired by:
 
 ---
 
-## ⚡ How It Works (High-Level)
+##  How It Works ( At the High-Level)
 
 ### On shutdown or idle:
 
@@ -107,7 +105,7 @@ Result:
 
 ---
 
-## 🔐 Multi-User & Security Model
+##  Multi-User & Security Model
 
 * Kernel state may persist
 * User sessions **never resume without authentication**
@@ -118,9 +116,9 @@ Security is treated as a **first-class requirement**, not an afterthought.
 
 ---
 
-## 🧪 Current Status
+##  Current Status
 
-🚧 **Early design & research phase**
+ **Early design & research phase**
 
 Right now, this repository documents:
 
@@ -140,7 +138,7 @@ Everything is documented.
 
 ---
 
-## 🐎 Dark Horse Log
+##  Dark Horse Log
 
 This project is being built as a **Dark Horse** journey.
 
@@ -148,13 +146,13 @@ Not a startup pitch.
 Not a hype demo.
 A slow, honest, documented exploration.
 
-Every failure, rethink, and breakthrough will be logged here.
+Every failure, rethink, and breakthrough will be logged in the *Dark Horse*.
 
 > *Great systems aren’t rushed. They’re understood.*
 
 ---
 
-## 🎯 Why This Exists
+##  Why This Exists
 
 Booting is a relic of old assumptions:
 
@@ -170,7 +168,7 @@ AWAKE asks a simple question:
 
 ---
 
-## 📌 Roadmap (High-Level)
+##  Roadmap (High-Level)
 
 * [ ] Study & document Linux boot/resume internals
 * [ ] Prototype snapshot + wake map (emulated FRAM)
@@ -181,7 +179,7 @@ AWAKE asks a simple question:
 
 ---
 
-## 🤝 Contributing / Following Along
+##  Contributing / Following Along
 
 This project is open by design.
 
@@ -208,20 +206,12 @@ It’s about **continuity**.
 
 ---
 
-🔥
-That’s it. That’s your foundation.
+##  License
 
-Next steps I’d recommend:
+Copyright (c) 2025 Pranav
 
-1. Create the repo with this README
-2. Add a `/docs` folder
-3. Create **Dark Horse – Entry #0** as a markdown file
-4. Don’t write code yet — write understanding
+All rights reserved.
 
-When you’re ready, I’ll help you write:
-
-* the first Dark Horse entry
-* the first diagram
-* or the first experiment log
-
-AWAKE is officially alive 🧠⚡
+This repository is made public for viewing and educational purposes only.  
+No part of this project may be used, copied, modified, redistributed, or
+commercialized without explicit written permission from the author.
