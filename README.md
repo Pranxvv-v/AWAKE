@@ -149,6 +149,9 @@ Every failure, rethink, and breakthrough will be logged in the *Dark Horse*.
 
 > *Great systems aren’t rushed. They’re understood.*
 
+- [Entry #0 — The Moment AWAKE Became Real](docs/DARK_HORSE_0.md)
+
+
 
 
 ##  Why This Exists
