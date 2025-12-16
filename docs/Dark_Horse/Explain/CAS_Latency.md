@@ -4,7 +4,7 @@
 
 ## Break the name down (this helps a LOT)
 
-**CAS** = *Column Address Strobe*
+**CAS** = *Column Address Strobe* <br>
 **Latency** = *delay*
 
 So literally:
@@ -108,9 +108,9 @@ During **RAM training**, the system figures out:
 
 It literally tests:
 
-> “Can I safely read after 14 cycles?”
-> “No?”
-> “Try 16.”
+> “Can I safely read after 14 cycles?” <br>
+> “No?” <br>
+> “Try 16.” <br>
 > “Stable? Lock it.”
 
 That’s training.
