@@ -76,8 +76,8 @@ It runs:
 | Firmware (UEFI)  | Initializes hardware           |
 | OS Kernel        | Runs the system                |
 
-Power controller ≠ BIOS
-Power controller ≠ OS
+Power controller ≠ BIOS <br>
+Power controller ≠ OS <br>
 Power controller = Kind of **pre-life support**
 
 ## One-liner you can remember
