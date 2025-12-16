@@ -4,8 +4,8 @@
 
 Think of your motherboard like a city.
 
-* Electricity = water
-* Power rails = **separate pipelines**
+* Electricity = water <br>
+* Power rails = **separate pipelines** <br>
 * Each neighborhood needs **different pressure**
 
 You don’t blast the whole city with one giant pipe.
@@ -61,14 +61,14 @@ Order matters a LOT.
 
 You **cannot** do this:
 
-CPU ON → RAM OFF
-CPU ON → unstable voltage
+CPU ON → RAM OFF <br>
+CPU ON → unstable voltage <br>
 RAM ON → controller OFF
 
 Because:
 
 * CPU expects RAM to exist
-* RAM expects clock signals
+* RAM expects [clock signals](https://github.com/Pranxvv-v/AWAKE/blob/25801e81732d5411e72682e2491c4452a25393ca/docs/Dark_Horse/Explain/Clock_Signals.md)
 * Clock generators expect stable power
 
 So the power controller does something like:
@@ -86,9 +86,9 @@ Only after **all rails are stable** does execution begin.
 
 ---
 
-## ⏱️ How long does this take?
+## How long does this take?
 
-Surprisingly little — but not zero.
+Surprisingly little - but not zero.
 
 * Per rail: microseconds → milliseconds
 * Total sequence: **~10–50 ms**
@@ -97,9 +97,7 @@ This is the **hard lower bound** for waking any computer.
 
 No OS trick can remove this.
 
----
-
-## 🧠 Why this matters for AWAKE (big insight)
+## Why this matters for AWAKE (big insight)
 
 AWAKE **does not fight power rails**.
 
@@ -120,11 +118,11 @@ You aim for:
 Power rails → Minimal firmware → Resume → UI
 ```
 
-That’s where the “nitros” feeling comes from 😈⚡
+That’s where the “nitros” feeling comes from 
 
 ---
 
-## 🔍 One-line intuition (remember this)
+## One-line intuition (remember this)
 
 > **Power rails are the reason computers can’t wake up at absolute zero time.**
 
@@ -134,7 +132,7 @@ Everything else is design choice.
 
 ---
 
-## 🔥 Why phones feel faster
+## Why phones feel faster
 
 Phones:
 
@@ -151,13 +149,3 @@ Laptops/desktops:
 * More safety checks
 
 AWAKE is about bringing **phone-like continuity** without breaking PC flexibility.
-
----
-
-If you want, next I can:
-
-* Draw a **simple ASCII diagram** of rails → CPU → OS
-* Explain **VRMs vs power rails**
-* Or tie this directly into **Dark Horse #1 as a diagram**
-
-Just say the word 🧠⚡
