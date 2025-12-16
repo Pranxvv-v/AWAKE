@@ -13,8 +13,8 @@ This entry documents the real, unavoidable steps that occur when a modern laptop
 Pressing the power button does not “start the OS”.
 
 It does three basic things:
-1. Signals the [power controller](docs/Dark Horse/Explain/Power Controller.md)
-2. Enables [power rails]()
+1. Signals the [power controller](https://github.com/Pranxvv-v/AWAKE/blob/f2ea3603dacb449d5cd603fc5d15d1264ba3917d/docs/Dark_Horse/Explain/Power_Controller.md)
+2. Enables [power rails](https://github.com/Pranxvv-v/AWAKE/blob/f2ea3603dacb449d5cd603fc5d15d1264ba3917d/docs/Dark_Horse/Explain/Power_Rails.md)
 3. Releases the CPU from reset
 
 At this point:
@@ -62,7 +62,7 @@ This assumption heavily influences everything that follows.
 ## 4. The Bootloader Stage
 
 After firmware finishes:
-- Control is handed to a bootloader
+- Control is handed to a [bootloader](https://github.com/Pranxvv-v/AWAKE/blob/f2ea3603dacb449d5cd603fc5d15d1264ba3917d/docs/Dark_Horse/Explain/BootLoader.md)
 - The bootloader locates the OS kernel
 - The kernel is loaded into memory
 - Execution jumps into kernel space
