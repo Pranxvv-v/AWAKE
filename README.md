@@ -149,8 +149,9 @@ Every failure, rethink, and breakthrough will be logged in the *Dark Horse*.
 
 > *Great systems aren’t rushed. They’re understood.*
 
-- [Entry #0 — The Moment AWAKE Became Real](docs/DARK_HORSE_0.md)
+- [Entry #0 — The Moment AWAKE Became Real](https://github.com/Pranxvv-v/AWAKE/blob/8f13989533f1654973af8d3ac875a2beadad84a5/docs/Dark_Horse/Log/DARK_HORSE_0.md)
 
+- [Entry #1 — How Computers Actually Wake Up](https://github.com/Pranxvv-v/AWAKE/blob/8f13989533f1654973af8d3ac875a2beadad84a5/docs/Dark_Horse/Log/DARK_HORSE_1.md)
 
 
 
