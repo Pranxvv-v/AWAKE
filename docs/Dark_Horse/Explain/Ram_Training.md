@@ -38,17 +38,11 @@ The CPU and RAM must agree on:
 
 This includes:
 
-* [CAS latency](docs/Dark Horse/Explain/CAS-Latency.md)
+* [CAS latency](https://github.com/Pranxvv-v/AWAKE/blob/76fa5486b31c2abac6017fd181ca6765050ce8d4/docs/Dark_Horse/Explain/CAS_Latency.md)
 * read/write delays
 * command spacing
 
-You don’t need the names — just the idea:
-
-> *“Is the data ready now… or now?”*
-
----
-
-### 2️⃣ Signal alignment
+### Signal alignment
 
 Signals don’t arrive instantly.
 
@@ -63,9 +57,7 @@ So the controller checks:
 
 Then it compensates.
 
----
-
-### 3️⃣ Voltage stability
+### Voltage stability
 
 RAM needs:
 
@@ -78,9 +70,7 @@ Training checks:
 * Is it fluctuating?
 * Can we run at rated speed?
 
----
-
-### 4️⃣ Frequency selection
+### Frequency selection
 
 If the system *can’t* reliably hit max speed:
 
@@ -88,12 +78,9 @@ If the system *can’t* reliably hit max speed:
 * prioritizes correctness over speed
 
 That’s why:
-
 * unstable systems boot at lower RAM speeds
 
----
-
-## 🧪 How does training actually happen?
+## How does training actually happen?
 
 At a high level:
 
@@ -109,12 +96,10 @@ At a high level:
 All of this happens:
 
 * before the OS
-* before bootloader
+* before [bootloader](https://github.com/Pranxvv-v/AWAKE/blob/f16ab91548b6137d3eb73fc8509e26495069f9b0/docs/Dark_Horse/Explain/BootLoader.md)
 * inside firmware / memory controller
 
----
-
-## ⏱️ How long does RAM training take?
+## How long does RAM training take?
 
 Rough numbers (varies by system):
 
@@ -124,11 +109,9 @@ Rough numbers (varies by system):
 
 This is one of the **largest unavoidable costs** of cold boot.
 
----
+## Why sleep/wake is faster than cold boot
 
-## 🧠 Why sleep/wake is faster than cold boot
-
-Now connect the dots 👇
+Now connect the dots 
 
 * Sleep → RAM stays powered
 * Timing is already known
@@ -144,9 +127,7 @@ Cold boot:
 
 This is a **huge reason** AWAKE can’t skip *everything*.
 
----
-
-## 🧠 Why AWAKE respects RAM training
+## Why AWAKE respects RAM training
 
 Here’s the mature insight:
 
@@ -167,22 +148,6 @@ But questions:
 
 That’s where the win is.
 
----
-
-## 🔒 One sentence to remember (lock this in)
+## One sentence to remember (lock this in)
 
 > **RAM training is the system re-learning how to speak to memory safely after power loss.**
-
-It’s not optional.
-It’s not legacy.
-It’s physics.
-
----
-
-If you want next, we can:
-
-* tie RAM training directly into **boot timing charts**
-* explain **why DDR5 made this worse**
-* or connect this to **why phones hide it better**
-
-Just say it 🧠⚡
