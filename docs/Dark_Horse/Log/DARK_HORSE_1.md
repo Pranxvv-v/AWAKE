@@ -24,8 +24,6 @@ At this point:
 
 The system is electrically alive, but logically empty.
 
----
-
 ## 2. Firmware Takes Control (UEFI / BIOS)
 
 Once the CPU is released from reset, execution begins at a **fixed hardware-defined address**.
@@ -47,8 +45,6 @@ However, much of it exists to support:
 - unknown configurations
 - backward compatibility
 
----
-
 ## 3. Memory Must Be Rebuilt Every Time
 
 RAM is volatile.
@@ -63,8 +59,6 @@ This is one of the oldest assumptions in computing:
 
 This assumption heavily influences everything that follows.
 
----
-
 ## 4. The Bootloader Stage
 
 After firmware finishes:
@@ -76,8 +70,6 @@ After firmware finishes:
 At this stage:
 - The system still has **no memory of previous execution**
 - The kernel assumes a clean slate
-
----
 
 ## 5. Kernel Initialization
 
@@ -95,8 +87,6 @@ This work is repeated **every single boot**, regardless of whether:
 
 Boot is treated as a full rebirth.
 
----
-
 ## 6. Userspace Finally Appears
 
 Only after all previous stages complete:
@@ -110,8 +100,6 @@ From a human perspective:
 
 Yet most of this time is spent **rebuilding what already existed before shutdown**.
 
----
-
 ## 7. What Is Actually Unavoidable
 
 Some steps truly cannot be skipped:
@@ -122,8 +110,6 @@ Some steps truly cannot be skipped:
 - Security verification
 
 These are rooted in physics and safety.
-
----
 
 ## 8. What Is Assumed — Not Required
 
@@ -136,8 +122,6 @@ Other steps exist mainly because of **historical assumptions**:
 
 These assumptions are not laws of nature.
 They are design choices.
-
----
 
 ## 9. Key Observation
 
@@ -153,8 +137,6 @@ The system already knows:
 
 Yet none of that knowledge is reused.
 
----
-
 ## 10. Why This Matters for AWAKE
 
 AWAKE does not aim to eliminate unavoidable hardware steps.
@@ -167,8 +149,6 @@ This entry establishes the baseline:
 - What happens only because “it always has”
 
 Only after understanding this baseline does redesign make sense.
-
----
 
 ## Closing Note
 
