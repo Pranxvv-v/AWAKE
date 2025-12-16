@@ -22,15 +22,15 @@ It talks to the **power controller**.
 
 Then the power controller:
 
-1. ✅ Confirms power source (battery / charger)
-2. ✅ Checks voltage is safe
-3. ✅ Enables power rails **in sequence**
+1. Confirms power source (battery / charger)
+2. Checks voltage is safe
+3. Enables power rails **in sequence**
    * CPU
    * RAM
    * chipset
    
-4. ✅ Releases the CPU from **reset**
-5. ✅ Hands control to firmware (UEFI)
+4. Releases the CPU from **reset**
+5. Hands control to firmware (UEFI)
 
 Only **after this** does any “booting” begin.
 
