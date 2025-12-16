@@ -38,7 +38,7 @@ The CPU and RAM must agree on:
 
 This includes:
 
-* [CAS latency](https://github.com/Pranxvv-v/AWAKE/blob/76fa5486b31c2abac6017fd181ca6765050ce8d4/docs/Dark_Horse/Explain/CAS_Latency.md)
+* [CAS latency](https://github.com/Pranxvv-v/AWAKE/blob/e15ff41dcce9bf4f7aaab94431c76bd89596fd32/docs/Dark_Horse/Explain/CAS_Latency.md)
 * read/write delays
 * command spacing
 
