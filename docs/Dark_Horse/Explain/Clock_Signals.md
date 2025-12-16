@@ -121,7 +121,7 @@ RAM is especially sensitive.
 
 That’s why:
 
-* RAM “training” happens at boot
+* [RAM “training”](https://github.com/Pranxvv-v/AWAKE/blob/25801e81732d5411e72682e2491c4452a25393ca/docs/Dark_Horse/Explain/Ram_Training.md) happens at boot
 * Timing is recalibrated every cold start
 
 This alone costs milliseconds.
