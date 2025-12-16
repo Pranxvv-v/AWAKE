@@ -38,7 +38,7 @@ The CPU and RAM must agree on:
 
 This includes:
 
-* [CAS latency](docs/Dark Horse/Explain/CAS Latency.md)
+* [CAS latency](docs/Dark Horse/Explain/CAS-Latency.md)
 * read/write delays
 * command spacing
 
