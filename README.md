@@ -153,6 +153,8 @@ Every failure, rethink, and breakthrough will be logged in the *Dark Horse*.
 
 - [Entry #1 — How Computers Actually Wake Up](https://github.com/Pranxvv-v/AWAKE/blob/8f13989533f1654973af8d3ac875a2beadad84a5/docs/Dark_Horse/Log/DARK_HORSE_1.md)
 
+- [Entry #2 - Where Boot time is really spent](https://github.com/Pranxvv-v/AWAKE/blob/8bf7ce5873754af9286ec9b98dc7cbbe985ae575/docs/Dark_Horse/Log/DARK_HORSE_2.md)
+
 
 
 ##  Why This Exists
