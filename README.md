@@ -155,6 +155,8 @@ Every failure, rethink, and breakthrough will be logged in the *Dark Horse*.
 
 - [Entry #2 - Where Boot time is really spent](https://github.com/Pranxvv-v/AWAKE/blob/8bf7ce5873754af9286ec9b98dc7cbbe985ae575/docs/Dark_Horse/Log/DARK_HORSE_2.md)
 
+- [Entry #3 - What If Boot Was Optional?](https://github.com/Pranxvv-v/AWAKE/blob/c0a66f2d0c56aa654299cca8e050f2d2d1dc2d52/docs/Dark_Horse/Log/DARK_HORSE_3.md)
+
 
 
 ##  Why This Exists
