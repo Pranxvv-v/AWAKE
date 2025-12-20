@@ -159,6 +159,8 @@ Every failure, rethink, and breakthrough will be logged in the *Dark Horse*.
 
 - [Entry #4 - Principles of Continuity](https://github.com/Pranxvv-v/AWAKE/blob/1a5596881685dc99a58b7172876b1bcb767e1503/docs/Dark_Horse/Log/DARK_HORSE_4.md)
 
+- [Entry #5 - The Layers of State](https://github.com/Pranxvv-v/AWAKE/blob/c97eeb6b1787717ca5a820906b780cee2e771a80/docs/Dark_Horse/Log/DARK_HORSE_5.md)
+
 
 
 ##  Why This Exists
