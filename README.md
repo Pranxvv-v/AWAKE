@@ -157,6 +157,8 @@ Every failure, rethink, and breakthrough will be logged in the *Dark Horse*.
 
 - [Entry #3 - What If Boot Was Optional?](https://github.com/Pranxvv-v/AWAKE/blob/c0a66f2d0c56aa654299cca8e050f2d2d1dc2d52/docs/Dark_Horse/Log/DARK_HORSE_3.md)
 
+- [Entry #4 - Principles of Continuity](https://github.com/Pranxvv-v/AWAKE/blob/1a5596881685dc99a58b7172876b1bcb767e1503/docs/Dark_Horse/Log/DARK_HORSE_4.md)
+
 
 
 ##  Why This Exists
